@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers")
 		)
 	)
 	(net 0 "")
@@ -94,12 +94,12 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 2.48 0 180)
+			(at 2.397501 0 180)
 			(layer "F.SilkS")
 			(uuid "c41c154c-e506-48c2-9a1e-3fdaebf699a1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -427,12 +427,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -2.535 0 0)
+			(at -2.435001 0 0)
 			(layer "F.SilkS")
 			(uuid "a5d6da4a-cc15-4b1c-9b73-3d9ff19674f8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -645,7 +645,7 @@
 			(uuid "aa635034-bc35-45fd-8cce-043bbfa9537b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1718,12 +1718,12 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 2.54 -0.1 180)
+			(at 2.439999 0 180)
 			(layer "F.SilkS")
 			(uuid "3fa1a7b1-bbd0-4c44-92e9-7031368d2972")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -1931,12 +1931,12 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -2.51 0 180)
+			(at -2.410001 0 180)
 			(layer "F.SilkS")
 			(uuid "88afe1ba-39a2-46c1-9961-417012c1dfdd")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -2571,12 +2571,12 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0.1 -0.065 0)
+			(at 0.1 1.435001 0)
 			(layer "F.SilkS")
 			(uuid "dd86133e-852d-4d3b-aac3-9cfe0f8bef0a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3297,7 +3297,7 @@
 			(uuid "e85e2f7c-d764-444b-9a7d-994a2a3fbe7f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -3505,12 +3505,12 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at -2.85 -0.04 0)
+			(at -2.649999 -0.04 0)
 			(layer "F.SilkS")
 			(uuid "069f5027-a5d0-47c0-8b43-5eb42b23b9dc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5749,58 +5749,6 @@
 				(xy 14.865325 14.404406) (xy 14.893079 14.401279) (xy 14.906962 14.400499) (xy 14.965892 14.400499)
 				(xy 35.834107 14.400499) (xy 35.89304 14.400499)
 			)
-		)
-	)
-	(group ""
-		(uuid "c72b4986-33ac-4de4-8e1b-63f0b7616886")
-		(members "0188a09c-7b3a-4e7d-b924-1a51db423fca" "01dd3f70-7b91-45b8-8625-1166b87dc310"
-			"06bd51c4-d7e4-4a8e-bd02-fb3527cab53b" "07391707-5658-49a0-982e-18ab20bf6a0b"
-			"0bc5ff85-6a44-442d-bb75-140a14e7ecda" "0ff94fb2-d96d-485c-af0e-3a3204c8d92e"
-			"1ec9dda9-f6cd-4c76-989f-f296964f100c" "1f687e2a-3e9e-4f34-a8db-d5ed2ac7a032"
-			"226cf68c-6454-4a30-9ba6-72346a1b9594" "25902495-e8ad-4b9f-86e3-a440dd0bdc7d"
-			"26ac06f0-dbe7-4740-aebd-eb0e6bc05efa" "275047c7-ff20-4189-a30a-68d29308208a"
-			"281790e6-05f2-4878-8b64-6fee776a12cb" "28fe2402-5fae-490c-bdbd-93c1f81c649b"
-			"290768fa-1b14-464a-bce2-6f304fa074e5" "2928b064-24c8-4e05-8e86-d27e9670b574"
-			"2c890f45-1aa6-43ea-858f-020b7474a7ad" "2d97d7dd-1ab0-400c-85dc-c5eb09f0a0d2"
-			"31988b26-4ece-4f10-8980-1628ae3e36a1" "34e5e205-2e19-4c54-a946-d463a5158fb5"
-			"38536011-8b32-45a5-83ff-be7c7b0e5ecb" "3ac29b50-73a1-4827-a6ff-f9a69546019e"
-			"3d85da51-d6fb-4ea7-8ef1-b61cd9b7c2b3" "3eb430aa-e8b6-4546-af6d-e0d8b82b6ff7"
-			"3fad04cc-d1bc-4f39-8a0b-cc47cc63b91f" "40c28612-1eb8-4802-83d9-aa82f6037516"
-			"451b7ac5-6ed7-4ea0-aaf9-2d634aa81f74" "45b2b29f-4285-458d-b20b-41dfb74df641"
-			"484eba7e-3cbf-4f44-a601-ec708db228b8" "4ae74bf4-ef4c-410d-938e-ae50d2f7056a"
-			"4f9280a8-f1f9-4f28-a080-208dfc8adc60" "4fffb4b6-cc3e-451e-baee-728d49727d52"
-			"500d8281-30fe-4550-9e20-595132cb9a63" "53558727-af01-477e-afcb-dd3c699c5dc9"
-			"54dd1572-65bf-4502-a9af-95ec9dd3487a" "5ab70692-9651-4b40-8feb-3e774b2a4d9e"
-			"5b4af646-af64-46e4-9a0a-a9be29fef6c4" "5ce2e46c-c89c-4e5c-9d56-2ee28f6d0800"
-			"5e869954-1c73-401f-8f3c-b8bd25f15bb9" "5f083619-73df-47be-8548-d462a89ac208"
-			"6b30f90f-69a1-46a8-9d01-0f73f3134ca8" "6ca4cad8-7fd5-4171-ab1b-1ca6c5714486"
-			"6e9d763a-9b92-4978-a805-58f769d68813" "6f990783-8769-41d8-8786-cd0714114efd"
-			"747bbb79-58cd-41c4-8c08-27f0f3b7294e" "77d47272-09c1-49cc-ba08-75a3beb473f9"
-			"7a04422b-64c7-4421-a0ad-a7a532d65c40" "7a04500e-16cf-419e-835f-9f64a12b3d31"
-			"7e681bcf-2422-4c44-b800-77a06061e357" "81ebadf8-634c-4840-8f12-62b452058382"
-			"8319fdc5-94b3-4b18-8166-f85d2afd45cb" "84249f85-0442-4b1c-b5a3-acf17100d5b6"
-			"8a965b55-07a8-4b29-8d3a-82c0e194f63f" "8d8eb7bd-2d64-4287-b43f-941243b7038b"
-			"8e299b2a-d96b-4ff3-9ff2-0591982ed3d9" "8fd1f4fa-7689-459e-b902-d1e822ce0e9a"
-			"92f9ee2d-21be-46ea-b105-498461660311" "93f48a04-185d-46ff-8f33-199d65f33eb7"
-			"99bf1a58-f5ec-4ba3-aabb-31ea3ab382d5" "9a373ff2-7db0-40b8-bcca-8081f7042301"
-			"9b661790-1dfc-474a-9a53-6a754c2a0338" "9d43cc62-dc1c-4f33-92d8-1dc76437202f"
-			"a01ee861-9f16-4ba8-939e-6af2d37722e4" "a04ace39-668a-4772-933c-36917ae04930"
-			"a1acf204-7a94-446d-b77b-331efab4e0ba" "a23125df-4d3c-4e88-a3f7-93370b916c51"
-			"a331b85b-ed78-4651-894a-459fca82e0d7" "af28cf7a-1597-403e-8f9e-988bb2525df6"
-			"b0552b33-d5fb-4fdb-9a3a-185486a27ea9" "b0743439-3831-4326-9f77-ae5cffe5ea93"
-			"b0ade9f1-98ad-43f8-8508-38b9b8618af4" "b42cc91b-2c18-4de8-9c68-0843cb291165"
-			"b732ec15-4b6d-4506-883e-5962f745083d" "c042527f-e3c8-4599-92ad-5e28a872d0d8"
-			"c1b32af8-fd6f-45ca-9744-3673f4e6fd27" "c4366db1-6edd-4c54-8f46-cb0d607410d2"
-			"cb11fbe2-cc76-47ac-a88a-debfa6c5511e" "cc8dcb07-23a2-456e-b957-9663ea418fcc"
-			"cd3a56aa-e1d3-4229-a8a6-06708be20cf4" "cf24944f-74dc-4627-8a33-ae9e81b28a9a"
-			"d084d465-c392-454f-9810-497c2369e9b2" "d39097b8-9785-4fd0-b033-d6c83c165e6d"
-			"d554d984-5711-4919-b90d-6566b3ffdb50" "d56ac40f-429d-48ab-8ed3-75fe905959bc"
-			"d775586a-54c2-4df6-88b5-845dd0788a2f" "dc741dec-69a6-4fd9-aa29-3f9565c74df9"
-			"dcaf0d53-63eb-41b9-abae-ad711014ed1c" "e18b405e-7d84-4dfb-82ba-19311d630cff"
-			"e2e25fa2-58ac-42c8-bf8f-946a5a8da1d0" "e62e2b33-a34e-4bb7-95a0-03b061a0c213"
-			"eba3c1a7-e4e5-4cf1-8f92-8c625f7a8d24" "f625b1d1-029b-4090-a4c8-03f7544a954d"
-			"f68cd0ce-a217-41d2-996c-479d4bc87243" "f88abe03-73d9-4d0f-b8ae-72287abc74d4"
-			"fbc10ced-c5e1-4969-ae70-bb2f55cea9cc" "fce6fc82-a280-40ae-ab8d-1946d4b50dd0"
 		)
 	)
 )
